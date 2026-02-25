@@ -5,7 +5,7 @@ from transformers import BertModel
 from tqdm import tqdm
 
 # 1. Load your donor data
-adata = sc.read_h5ad("../../dominguez_conde_immune_tissue_two_donors.h5ad")
+adata = sc.read_h5ad("data/dominguez_conde_immune_tissue_two_donors.h5ad")
 
 # 2. Pre-process: Select the top genes per cell to fit the 4096 limit
 # We will keep the 4096 highest-expressed genes per cell to ensure we don't exceed the model's max_position_embeddings

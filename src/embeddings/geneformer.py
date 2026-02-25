@@ -3,7 +3,7 @@ import scanpy as sc
 from transformers import BertModel, BertConfig
 
 # 1. Load your donor data (A29 and A31)
-adata = sc.read_h5ad("../../dominguez_conde_immune_tissue_two_donors.h5ad")
+adata = sc.read_h5ad("data/dominguez_conde_immune_tissue_two_donors.h5ad")
 
 # 2. Load Geneformer directly from Hugging Face
 # This is much easier than scGPT because it uses standard 'BertModel' architecture
