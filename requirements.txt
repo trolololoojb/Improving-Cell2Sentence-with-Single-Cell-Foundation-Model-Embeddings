@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+scanpy
+anndata
+tqdm
+scikit-learn
+
+torch
+transformers
+peft
+huggingface_hub
+accelerate
+
+scgpt
+jupyter
+ipykernel
