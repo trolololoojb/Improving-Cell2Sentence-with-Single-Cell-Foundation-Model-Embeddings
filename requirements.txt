@@ -6,3 +6,5 @@ numpy
 seaborn
 matplotlib
 scikit-learn
+
+tabpfn
