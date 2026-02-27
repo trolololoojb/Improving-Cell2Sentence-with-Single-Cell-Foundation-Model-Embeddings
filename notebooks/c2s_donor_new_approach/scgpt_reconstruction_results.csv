@@ -1,0 +1,25 @@
+cell_id,y_true,pred_original,score_original,pred_masked,score_masked,pred_reconstructed,score_reconstructed,scgpt_helped,scgpt_hurt
+Pan_T7935492_CCTAGCTCACGAAATA,mast cell,mast cell.,2,mast cell.,2,"CD4-positive, alpha-beta thymocyte.",0,False,True
+Pan_T7935494_CAGCGACTCTTACCGC,T follicular helper cell,"CD4-positive, alpha-beta T cell.",0,"CD4-positive, alpha-beta T cell.",0,"CD4-positive, alpha-beta T cell.",0,False,False
+Pan_T7935487_TCGGGACCACAGCCCA,plasma cell,IgA plasma cell.,1,plasma cell.,2,malignant cell.,1,False,True
+Pan_T7935491_AAGGCAGCAGTACACT,plasma cell,plasma cell.,2,plasma cell.,2,germ cell.,1,False,True
+Pan_T7935495_TACCTATAGCTTATCG,"effector memory CD4-positive, alpha-beta T cell","CD4-positive, alpha-beta T cell.",1,"naive thymus-derived CD4-positive, alpha-beta T cell.",1,germ cell.,0,False,True
+Pan_T7935493_TCTATTGTCGGCGCTA,"naive thymus-derived CD4-positive, alpha-beta T cell","CD4-positive, alpha-beta memory T cell.",1,"CD4-positive, alpha-beta memory T cell.",1,germ cell.,0,False,True
+Pan_T7935492_TCTGAGATCGTAGATC,macrophage,monocyte.,0,macrophage.,2,erythroid lineage cell.,0,False,True
+Pan_T7935491_AGCTTGACAGCTGTAT,memory B cell,B cell.,1,naive B cell.,1,germ cell.,1,False,False
+Pan_T7935491_CTGAAGTTCCGTAGTA,memory B cell,B cell.,1,B cell.,1,malignant cell.,1,False,False
+Pan_T7935495_CACATAGTCAATACCG,erythroid lineage cell,erythroid progenitor cell.,1,erythroid progenitor cell.,1,germ cell.,0,False,True
+Pan_T7935492_CGCTATCGTTGGGACA,alveolar macrophage,macrophage.,1,macrophage.,1,malignant cell.,0,False,True
+Pan_T7935493_TGGGCGTGTCTCTTAT,"CD16-negative, CD56-bright natural killer cell, human","CD8-positive, alpha-beta memory T cell.",0,"CD8-positive, alpha-beta memory T cell.",0,"CD8-positive, alpha-beta T cell.",0,False,False
+Pan_T7935492_CGAACATGTCTGATTG,classical monocyte,CD14-positive monocyte.,0,classical monocyte.,2,epithelial cell.,0,False,True
+Pan_T7935497_GAAATGAGTGCAGACA,classical monocyte,classical monocyte.,2,monocyte.,1,epithelial cell.,0,False,True
+Pan_T7935494_ATCTACTCAACGATGG,"naive thymus-derived CD4-positive, alpha-beta T cell","CD4-positive, alpha-beta memory T cell.",1,"naive thymus-derived CD4-positive, alpha-beta T cell.",2,"CD4-positive, alpha-beta T cell.",1,False,True
+Pan_T7935491_ACGCCAGCATGTAAGA,"effector memory CD8-positive, alpha-beta T cell, terminally differentiated","CD8-positive, alpha-beta memory T cell.",1,"CD8-positive, alpha-beta memory T cell.",1,"CD8-positive, alpha-beta T cell.",1,False,False
+Pan_T7935493_TGACTTTTCCTTGGTC,CD4-positive helper T cell,"CD4-positive, alpha-beta memory T cell.",1,mature alpha-beta T cell.,0,"naive thymus-derived CD4-positive, alpha-beta T cell.",1,True,False
+Pan_T7935491_TCAGGTAAGTACACCT,T follicular helper cell,"CD4-positive, alpha-beta memory T cell.",0,CD4-positive helper T cell.,1,thymocyte.,0,False,True
+Pan_T7935493_GCTGGGTGTCATCCCT,"naive thymus-derived CD4-positive, alpha-beta T cell","CD4-positive, alpha-beta T cell.",1,"CD4-positive, alpha-beta T cell.",1,germ cell.,0,False,True
+Pan_T7935494_CCTCTGAGTCAGGACA,naive B cell,B cell.,1,B cell.,1,"naive thymus-derived CD4-positive, alpha-beta T cell.",0,False,True
+Pan_T7935492_GAGTCCGTCTTGAGGT,macrophage,monocyte.,0,macrophage.,2,malignant cell.,0,False,True
+Pan_T7935492_TTGCGTCCAATGTAAG,macrophage,monocyte.,0,elicited macrophage.,1,CD4-positive helper T cell.,0,False,True
+Pan_T7935497_ACGAGCCCAAGCGTAG,macrophage,macrophage.,2,macrophage.,2,macrophage.,2,False,False
+Pan_T7935491_CGGACACGTCAGGACA,memory B cell,B cell.,1,naive B cell.,1,germ cell.,1,False,False
