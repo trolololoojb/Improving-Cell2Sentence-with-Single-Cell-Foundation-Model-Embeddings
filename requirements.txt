@@ -1,9 +1,9 @@
-tensorflow
-
+torch
+transformers
+datasets
+scikit-learn
 pandas
 numpy
-seaborn
 matplotlib
-scikit-learn
-
-tabpfn
+seaborn
+tqdm
