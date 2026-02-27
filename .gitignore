@@ -8,5 +8,6 @@ dominguez_conde_immune_tissue_two_donors.h5ad
 .venv/
 .vscode/
 scGPT Cell Centences/processed
-notebooks/c2s_tutorial_style/runs
+notebooks/*
 .venv311
+scGPT_Klappe_2/__pycache__

@@ -1,17 +1,14 @@
-numpy
-pandas
-scipy
-scanpy
-anndata
-tqdm
-scikit-learn
+# Core
+numpy>=1.23,<2.0
+scipy>=1.10,<2.0
 
-torch
-transformers
-peft
-huggingface_hub
-accelerate
+# Single-cell IO
+anndata>=0.9,<0.12
+h5py>=3.8,<4.0
 
-scgpt
-jupyter
-ipykernel
+# ML
+torch>=2.1,<3.0
+
+# Optional but commonly required by .h5ad stacks (safe defaults)
+pandas>=2.0,<3.0
+tqdm>=4.66,<5.0
