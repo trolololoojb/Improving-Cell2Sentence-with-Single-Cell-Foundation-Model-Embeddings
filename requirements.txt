@@ -1,20 +1,7 @@
-# Compatible stack for Cell2Sentence tutorial notebooks
-# Recommended Python: 3.8-3.10 (avoid 3.13 for this project)
-
-cell2sentence==1.2.0
-transformers==4.46.3
-torch==2.5.1
-accelerate==1.0.1
-datasets==3.1.0
-tokenizers==0.20.3
-
-anndata==0.10.9
-scanpy==1.10.4
-numpy
+tensorflow
+tensorflow_decision_forests
 pandas
-scipy
+numpy
+seaborn
+matplotlib
 scikit-learn
-tqdm
-
-jupyterlab==4.3.5
-ipykernel==6.29.5
