@@ -11,4 +11,6 @@ scGPT Cell Centences/processed
 notebooks/c2s_donor_new_approach/tmp_c2s_notebook_model/.cache
 notebooks/c2s_donor_new_approach/tmp_c2s_notebook/donor_subset
 notebooks/c2s_donor_new_approach/tmp_c2s_notebook_model/pretrained_c2s_inference
-notebooks/c2s_tutorial_style/runs
+notebooks/c2s_tutorial_style/runs^
+
+.claude/
