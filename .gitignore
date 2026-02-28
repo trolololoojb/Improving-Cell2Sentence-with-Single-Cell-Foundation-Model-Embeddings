@@ -22,3 +22,5 @@ notebooks/c2s_tutorial_style/runs^
 Gold_Kaggle/.venv
 bert/outputs_distilbert
 bert/outputs_distilbert_Weightbalance
+
+outputs/
