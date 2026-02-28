@@ -22,5 +22,5 @@ notebooks/c2s_tutorial_style/runs^
 Gold_Kaggle/.venv
 
 /bert/outputs
-data/test.csv
-data/train.csv
+
+/data
