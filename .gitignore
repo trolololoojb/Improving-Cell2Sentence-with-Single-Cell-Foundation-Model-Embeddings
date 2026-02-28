@@ -20,3 +20,5 @@ notebooks/c2s_tutorial_style/runs^
 /notebooks/c2s_donor_new_approach/tmp_c2s_reconstructed
 /notebooks/c2s_donor_new_approach/tmp_c2s_reconstruction_model
 Gold_Kaggle/.venv
+bert/outputs_distilbert
+bert/outputs_distilbert_Weightbalance
