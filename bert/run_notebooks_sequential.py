@@ -6,6 +6,7 @@ from __future__ import annotations
 import subprocess
 import sys
 from pathlib import Path
+import shutil
 
 
 ROOT = Path(__file__).resolve().parent
@@ -19,11 +20,7 @@ def run_notebook(notebook: Path) -> None:
     if not notebook.exists():
         raise FileNotFoundError(f"Notebook not found: {notebook}")
 
-    cmd = [
-        sys.executable,
-        "-m",
-        "jupyter",
-        "nbconvert",
+    base_args = [
         "--to",
         "notebook",
         "--execute",
@@ -32,6 +29,19 @@ def run_notebook(notebook: Path) -> None:
         "--ExecutePreprocessor.timeout=-1",
         str(notebook),
     ]
+
+    # Prefer nbconvert module from current interpreter.
+    cmd = [sys.executable, "-m", "nbconvert", *base_args]
+    try:
+        __import__("nbconvert")
+    except ModuleNotFoundError:
+        nbconvert_bin = shutil.which("jupyter-nbconvert")
+        if not nbconvert_bin:
+            raise RuntimeError(
+                "No nbconvert found. Activate your venv and install nbconvert "
+                "(e.g. `pip install nbconvert ipykernel`)."
+            )
+        cmd = [nbconvert_bin, *base_args]
 
     print(f"\n[RUN] {notebook.name}")
     subprocess.run(cmd, check=True)
