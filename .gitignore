@@ -25,3 +25,8 @@ bert/outputs_distilbert_Weightbalance
 
 outputs/
 bert/outputs_distilbert_weightbalance_newLoss
+outputs_v1
+/outputs_v1_bert_classWeight
+/outputs_v2_bert_no_classWeight
+/outputs_v3_bert_weightbalance_newLoss
+/bert/outputs_bert_weightbalance_newLoss
